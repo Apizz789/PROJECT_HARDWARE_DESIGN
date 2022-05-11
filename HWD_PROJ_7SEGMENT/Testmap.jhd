@@ -1,0 +1,3 @@
+MODULE Testmap
+	SUBMODULE My_7Segment
+		INSTANCE XLXI_1

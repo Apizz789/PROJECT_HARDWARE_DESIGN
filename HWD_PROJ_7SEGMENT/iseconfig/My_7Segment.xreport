@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-05-10T09:23:43</DateModified>
+  <DateModified>2022-05-11T14:23:38</DateModified>
   <ModuleName>My_7Segment</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/iseconfig/My_7Segment.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT\</ImplementationReportsDirectory>
   <DateInitialized>2022-05-10T09:23:42</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

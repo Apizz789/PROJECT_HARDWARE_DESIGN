@@ -1,0 +1,59 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Testmap.vf
+// /___/   /\     Timestamp : 05/11/2022 14:32:39
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.vf" -w "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.sch"
+//Design Name: Testmap
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Testmap(Button1, 
+               Button2, 
+               Button3, 
+               Button4, 
+               A, 
+               B, 
+               C, 
+               D, 
+               E, 
+               F, 
+               G);
+
+    input Button1;
+    input Button2;
+    input Button3;
+    input Button4;
+   output A;
+   output B;
+   output C;
+   output D;
+   output E;
+   output F;
+   output G;
+   
+   
+   My_7Segment  XLXI_1 (.B0(Button1), 
+                       .B1(Button2), 
+                       .B2(Button3), 
+                       .B3(Button4), 
+                       .A(A), 
+                       .B(B), 
+                       .C(C), 
+                       .D(D), 
+                       .E(E), 
+                       .F(F), 
+                       .G(G));
+endmodule

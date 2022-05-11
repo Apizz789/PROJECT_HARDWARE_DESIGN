@@ -1,1 +1,16 @@
 xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "My_7Segment.ngc" My_7Segment.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o My_7Segment_map.ncd My_7Segment.ngd My_7Segment.pcf 
+par -w -intstyle ise -ol high -mt off My_7Segment_map.ncd My_7Segment.ncd My_7Segment.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml My_7Segment.twx My_7Segment.ncd -o My_7Segment.twr My_7Segment.pcf 
+bitgen -intstyle ise -f My_7Segment.ut My_7Segment.ncd 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "My_7Segment.ngc" My_7Segment.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o My_7Segment_map.ncd My_7Segment.ngd My_7Segment.pcf 
+par -w -intstyle ise -ol high -mt off My_7Segment_map.ncd My_7Segment.ncd My_7Segment.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml My_7Segment.twx My_7Segment.ncd -o My_7Segment.twr My_7Segment.pcf 
+vhdtdtfi -lib work my_7segment.vhd -prj HWD_PROJ_7SEGMENT -o My_7Segment.spl -module My_7Segment -template D:/FPGA/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 My_7Segment.spl {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.sym} 
