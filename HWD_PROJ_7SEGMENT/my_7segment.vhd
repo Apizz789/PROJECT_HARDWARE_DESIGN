@@ -38,6 +38,7 @@ entity My_7Segment is
            B : out  STD_LOGIC;
            C : out  STD_LOGIC;
            D : out  STD_LOGIC;
+			  E : out  STD_LOGIC;
            F : out  STD_LOGIC;
            G : out  STD_LOGIC);
 end My_7Segment;

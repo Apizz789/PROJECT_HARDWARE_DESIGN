@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/My_7Segment.syr" 
