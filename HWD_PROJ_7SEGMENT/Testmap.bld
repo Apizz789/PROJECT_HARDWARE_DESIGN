@@ -2,7 +2,8 @@ Release 14.7 ngdbuild P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: D:\FPGA\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -intstyle
-ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 Testmap.ngc Testmap.ngd
+ise -dd _ngo -nt timestamp -uc Testmap.ucf -p xc6slx9-tqg144-3 Testmap.ngc
+Testmap.ngd
 
 Reading NGO file "C:/Users/Apirak
 Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.ngc"
@@ -10,6 +11,7 @@ Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.ngc"
 Gathering constraint information from source properties...
 Done.
 
+Annotating constraints to design from ucf file "Testmap.ucf" ...
 Resolving constraint associations...
 Checking Constraint Associations...
 Done...
@@ -27,10 +29,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4397356 kilobytes
+Total memory usage is 4397408 kilobytes
 
 Writing NGD file "Testmap.ngd" ...
-Total REAL time to NGDBUILD completion:  3 sec
-Total CPU time to NGDBUILD completion:   3 sec
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
 
 Writing NGDBUILD log file "Testmap.bld"...

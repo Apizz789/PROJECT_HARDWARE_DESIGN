@@ -1,14 +1,17 @@
 
-NET "Button1" LOC = P66;
-NET "Button2" LOC = P62;
-NET "Button3" LOC = P61;
-NET "Button4" LOC = P59;
+//NET "Button1" LOC = P66;
+//NET "Button2" LOC = P62;
+//NET "Button3" LOC = P61;
+//NET "Button4" LOC = P59;
 
-NET "A" LOC = P5;
-NET "B" LOC = P7;
-NET "C" LOC = P9;
-NET "D" LOC = P11;
-NET "E" LOC = P16;
-NET "F" LOC = P21;
-NET "G" LOC = P23;
+//NET "A" LOC = P5;
+//NET "B" LOC = P7;
+//NET "C" LOC = P9;
+//NET "D" LOC = P11;
+//NET "E" LOC = P16;
+//NET "F" LOC = P21;
+//NET "G" LOC = P23;
+
+NET "B1" LOC = P66;
+NET "B2" LOC = P5;
 

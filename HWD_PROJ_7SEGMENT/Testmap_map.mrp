@@ -10,7 +10,7 @@ Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Wed May 11 14:32:58 2022
+Mapped Date    : Wed May 11 15:09:37 2022
 
 Design Summary
 --------------
@@ -18,32 +18,16 @@ Number of errors:      0
 Number of warnings:    0
 Slice Logic Utilization:
   Number of Slice Registers:                     0 out of  11,440    0%
-  Number of Slice LUTs:                          4 out of   5,720    1%
-    Number used as logic:                        4 out of   5,720    1%
-      Number using O6 output only:               1
-      Number using O5 output only:               0
-      Number using O5 and O6:                    3
-      Number used as ROM:                        0
-    Number used as Memory:                       0 out of   1,440    0%
+  Number of Slice LUTs:                          0 out of   5,720    0%
 
 Slice Logic Distribution:
-  Number of occupied Slices:                     4 out of   1,430    1%
+  Number of occupied Slices:                     0 out of   1,430    0%
   Number of MUXCYs used:                         0 out of   2,860    0%
-  Number of LUT Flip Flop pairs used:            4
-    Number with an unused Flip Flop:             4 out of       4  100%
-    Number with an unused LUT:                   0 out of       4    0%
-    Number of fully used LUT-FF pairs:           0 out of       4    0%
-    Number of slice register sites lost
-      to control set restrictions:               0 out of  11,440    0%
-
-  A LUT Flip Flop pair for this architecture represents one LUT paired with
-  one Flip Flop within a slice.  A control set is a unique combination of
-  clock, reset, set, and enable signals for a registered element.
-  The Slice Logic Distribution report is not meaningful if the design is
-  over-mapped for a non-slice resource or if Placement fails.
+  Number of LUT Flip Flop pairs used:            0
 
 IO Utilization:
-  Number of bonded IOBs:                        11 out of     102   10%
+  Number of bonded IOBs:                         2 out of     102    1%
+    Number of LOCed IOBs:                        2 out of       2  100%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
@@ -68,11 +52,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                1.91
+Average Fanout of Non-Clock Nets:                1.00
 
 Peak Memory Usage:  4493 MB
-Total REAL time to MAP completion:  5 secs 
-Total CPU time to MAP completion:   5 secs 
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   3 secs 
 
 Table of Contents
 -----------------
@@ -116,6 +100,9 @@ Section 4 - Removed Logic Summary
 Section 5 - Removed Logic
 -------------------------
 
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
 Section 6 - IOB Properties
 --------------------------
 
@@ -123,17 +110,8 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| A                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| B                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Button1                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Button2                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Button3                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Button4                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| C                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| D                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| E                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| F                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| G                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| B1                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| B2                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs

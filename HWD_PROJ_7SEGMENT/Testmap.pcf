@@ -1,4 +1,9 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Wed May 11 14:33:04 2022
+// Written by: Map P.20131013 on Wed May 11 15:09:41 2022
 //! **************************************************************************
+
+SCHEMATIC START;
+COMP "B1" LOCATE = SITE "P66" LEVEL 1;
+COMP "B2" LOCATE = SITE "P5" LEVEL 1;
+SCHEMATIC END;
 

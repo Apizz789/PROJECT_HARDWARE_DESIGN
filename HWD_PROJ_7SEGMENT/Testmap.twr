@@ -3,7 +3,8 @@ Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 D:\FPGA\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
-3 -fastpaths -xml Testmap.twx Testmap.ncd -o Testmap.twr Testmap.pcf
+3 -fastpaths -xml Testmap.twx Testmap.ncd -o Testmap.twr Testmap.pcf -ucf
+Testmap.ucf
 
 Design file:              Testmap.ncd
 Physical constraint file: Testmap.pcf
@@ -35,35 +36,11 @@ Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-Button1        |A              |    6.590|
-Button1        |D              |    6.520|
-Button1        |F              |    6.679|
-Button1        |G              |    6.668|
-Button2        |A              |    6.815|
-Button2        |B              |    5.864|
-Button2        |C              |    6.884|
-Button2        |D              |    6.598|
-Button2        |E              |    6.945|
-Button2        |F              |    6.904|
-Button2        |G              |    6.746|
-Button3        |A              |    7.038|
-Button3        |B              |    6.585|
-Button3        |C              |    6.328|
-Button3        |D              |    6.980|
-Button3        |E              |    6.389|
-Button3        |F              |    7.127|
-Button3        |G              |    7.128|
-Button4        |A              |    6.904|
-Button4        |B              |    6.679|
-Button4        |C              |    6.453|
-Button4        |D              |    7.281|
-Button4        |E              |    6.514|
-Button4        |F              |    6.993|
-Button4        |G              |    7.429|
+B1             |B2             |    9.747|
 ---------------+---------------+---------+
 
 
-Analysis completed Wed May 11 14:33:17 2022 
+Analysis completed Wed May 11 15:09:50 2022 
 --------------------------------------------------------------------------------
 
 Trace Settings:

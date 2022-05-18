@@ -20,3 +20,4 @@ Finished circuit initialization process.
 # isim force add /my_7segment/b3 1 -radix bin
 # isim force add /my_7segment/b3 1 -radix bin
 # run 1.00us
+The simulator has terminated in an unexpected manner.  Please review the ISim log (isim.log) for details.

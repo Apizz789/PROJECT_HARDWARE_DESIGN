@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: Testmap.prj
 
@@ -107,19 +107,14 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 Analyzing Verilog file "C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\Testmap.vf" into library work
 Parsing module <Testmap>.
-Parsing VHDL file "C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\my_7segment.vhd" into library work
-Parsing entity <My_7Segment>.
-Parsing architecture <TodLongJaa> of entity <my_7segment>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
 
 Elaborating module <Testmap>.
-Going to vhdl side to elaborate module My_7Segment
 
-Elaborating entity <My_7Segment> (architecture <TodLongJaa>) from library <work>.
-Back to verilog to continue elaboration
+Elaborating module <BUF>.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -130,12 +125,6 @@ Synthesizing Unit <Testmap>.
     Summary:
 	no macro.
 Unit <Testmap> synthesized.
-
-Synthesizing Unit <My_7Segment>.
-    Related source file is "C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\my_7segment.vhd".
-    Summary:
-	no macro.
-Unit <My_7Segment> synthesized.
 
 =========================================================================
 HDL Synthesis Report
@@ -191,12 +180,11 @@ Top Level Output File Name         : Testmap.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 7
-#      LUT3                        : 3
-#      LUT4                        : 4
-# IO Buffers                       : 11
-#      IBUF                        : 4
-#      OBUF                        : 7
+# BELS                             : 1
+#      BUF                         : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
 
 Device utilization summary:
 ---------------------------
@@ -205,19 +193,17 @@ Selected Device : 6slx9tqg144-3
 
 
 Slice Logic Utilization: 
- Number of Slice LUTs:                    7  out of   5720     0%  
-    Number used as Logic:                 7  out of   5720     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      7
-   Number with an unused Flip Flop:       7  out of      7   100%  
-   Number with an unused LUT:             0  out of      7     0%  
-   Number of fully used LUT-FF pairs:     0  out of      7     0%  
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
    Number of unique control sets:         0
 
 IO Utilization: 
- Number of IOs:                          11
- Number of bonded IOBs:                  11  out of    102    10%  
+ Number of IOs:                           2
+ Number of bonded IOBs:                   2  out of    102     1%  
 
 Specific Feature Utilization:
 
@@ -252,7 +238,7 @@ Speed Grade: -3
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 5.595ns
+   Maximum combinational path delay: 5.519ns
 
 Timing Details:
 ---------------
@@ -260,22 +246,22 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 25 / 7
+  Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Delay:               5.595ns (Levels of Logic = 3)
-  Source:            Button2 (PAD)
-  Destination:       A (PAD)
+Delay:               5.519ns (Levels of Logic = 3)
+  Source:            B1 (PAD)
+  Destination:       B2 (PAD)
 
-  Data Path: Button2 to A
+  Data Path: B1 to B2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             7   1.222   1.021  Button2_IBUF (Button2_IBUF)
-     LUT4:I0->O            1   0.203   0.579  XLXI_1/A1 (A_OBUF)
-     OBUF:I->O                 2.571          A_OBUF (A)
+     IBUF:I->O             1   1.222   0.579  B1_IBUF (B1_IBUF)
+     BUF:I->O              1   0.568   0.579  XLXI_2 (B2_OBUF)
+     OBUF:I->O                 2.571          B2_OBUF (B2)
     ----------------------------------------
-    Total                      5.595ns (3.996ns logic, 1.600ns route)
-                                       (71.4% logic, 28.6% route)
+    Total                      5.519ns (4.361ns logic, 1.158ns route)
+                                       (79.0% logic, 21.0% route)
 
 =========================================================================
 
@@ -285,8 +271,8 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.59 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.33 secs
  
 --> 
 
