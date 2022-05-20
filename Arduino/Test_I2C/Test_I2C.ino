@@ -21,8 +21,8 @@ char keys[ROWS][COLS] =
 {'*','0','#','D'}
 }; //mapping of the keys done w.r.t to the grid keypad
 
-byte rowPins[ROWS] = { 13, 12, 11, 10 }; //connection of rows pins to the arduino 
-byte colPins[COLS] = { 9, 8, 7, 6 }; // connection of the columns pins to the arduino 
+byte rowPins[ROWS] = { 10, 11, 12, 13 }; //connection of rows pins to the arduino 
+byte colPins[COLS] = { 6, 7, 8, 9 }; // connection of the columns pins to the arduino 
 
 Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
 
