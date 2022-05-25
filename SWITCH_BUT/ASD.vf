@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ASD.vf
+// /___/   /\     Timestamp : 05/25/2022 06:12:06
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.vf" -w "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.sch"
+//Design Name: ASD
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ASD(button, 
+           LED1, 
+           LED2, 
+           LED3, 
+           LED4);
+
+    input button;
+   output LED1;
+   output LED2;
+   output LED3;
+   output LED4;
+   
+   
+   Kunyork  XLXI_1 (.button(button), 
+                   .led1(LED1), 
+                   .led2(LED2), 
+                   .led3(LED3), 
+                   .led4(LED4));
+endmodule

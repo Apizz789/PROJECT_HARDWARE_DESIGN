@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\SWITCH_BUT\Kunyork.ncd
+OUTFILE=C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\SWITCH_BUT\Kunyork.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\SWITCH_BUT
+LICENSE=WebPack
+USER_INFO=211847159_0_0_350

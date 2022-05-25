@@ -1,0 +1,22 @@
+vhdtdtfi -prj HWD_PROJ_7SEGMENT -o "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Kunyork.tfi" -module Kunyork -template D:/FPGA/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work Kunyork.vhd 
+vhdtdtfi -lib work Kunyork.vhd -prj HWD_PROJ_7SEGMENT -o Kunyork.spl -module Kunyork -template D:/FPGA/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Kunyork.spl {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Kunyork.sym} 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Testmap.ucf -p xc6slx9-tqg144-3 "KUNYORK.ngc" KUNYORK.ngd  
+sch2sym -intstyle ise -family spartan6 -refsym KUNYORK {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.sch} {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog KUNYORK_drc.vf -w {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.sch} 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Testmap.ucf -p xc6slx9-tqg144-3 "KUNYORK.ngc" KUNYORK.ngd  
+sch2sym -intstyle ise -family spartan6 -refsym KUNYORK {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.sch} {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.sym} 
+sch2sym -intstyle ise -family spartan6 -refsym KUNYORK {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.sch} {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.sym} 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Testmap.ucf -p xc6slx9-tqg144-3 "KUNYORK.ngc" KUNYORK.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Testmap.ucf -p xc6slx9-tqg144-3 "KUNYORK.ngc" KUNYORK.ngd  
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.syr" 

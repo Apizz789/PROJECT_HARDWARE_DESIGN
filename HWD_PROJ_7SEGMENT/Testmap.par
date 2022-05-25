@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-MAYUYU::  Wed May 11 15:09:43 2022
+MAYUYU::  Wed May 25 00:19:00 2022
 
 par -w -intstyle ise -ol high -mt off Testmap_map.ncd Testmap.ncd Testmap.pcf 
 
@@ -71,29 +71,29 @@ Finished initial Timing Analysis.  REAL time: 2 secs
 Starting Router
 
 
-Phase  1  : 1 unrouted;      REAL time: 2 secs 
+Phase  1  : 1 unrouted;      REAL time: 3 secs 
 
-Phase  2  : 1 unrouted;      REAL time: 2 secs 
+Phase  2  : 1 unrouted;      REAL time: 3 secs 
 
-Phase  3  : 0 unrouted;      REAL time: 2 secs 
+Phase  3  : 0 unrouted;      REAL time: 3 secs 
 
-Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
 Updating file: Testmap.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
-Total REAL time to Router completion: 2 secs 
-Total CPU time to Router completion: 2 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Total REAL time to Router completion: 3 secs 
+Total CPU time to Router completion: 3 secs 
 
 Partition Implementation Status
 -------------------------------

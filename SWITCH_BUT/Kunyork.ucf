@@ -1,0 +1,8 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "button" LOC = P24;
+NET "led1" LOC = P82;
+NET "led2" LOC = P81;
+NET "led3" LOC = P80;
+NET "led4" LOC = P79;

@@ -4,8 +4,8 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="6">
-<DesignStatistics TimeStamp="Wed May 11 15:09:57 2022"><group name="NetStatistics">
+<DeviceUsageSummary rev="7">
+<DesignStatistics TimeStamp="Wed May 25 00:18:57 2022"><group name="NetStatistics">
 <item name="NumNets_Active" rev="6">
 <attrib name="value" value="3"/></item>
 <item name="NumNodesOfType_Active_DOUBLE" rev="6">
@@ -32,31 +32,18 @@
 <attrib name="value" value="2"/></item>
 </group>
 <group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="5">
+<item name="AGG_BONDED_IO" rev="7">
 <attrib name="value" value="2"/></item>
-<item name="AGG_IO" rev="5">
+<item name="AGG_IO" rev="7">
 <attrib name="value" value="2"/></item>
-<item name="AGG_LOCED_IO" rev="5">
+<item name="AGG_LOCED_IO" rev="7">
 <attrib name="value" value="2"/></item>
-<item name="NUM_BONDED_IOB" rev="5">
+<item name="NUM_BONDED_IOB" rev="7">
 <attrib name="value" value="2"/></item>
-<item name="NUM_LOCED_IOB" rev="5">
+<item name="NUM_LOCED_IOB" rev="7">
 <attrib name="value" value="2"/></item>
 </group>
 </DesignStatistics>
-<DeviceUsage TimeStamp="Wed May 11 15:09:57 2022"><group name="SiteSummary">
-<item name="IOB" rev="6">
-<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
-<item name="IOB_IMUX" rev="6">
-<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
-<item name="IOB_INBUF" rev="6">
-<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
-<item name="IOB_OUTBUF" rev="6">
-<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
-<item name="PAD" rev="6">
-<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
-</group>
-</DeviceUsage>
 <ReportConfigData TimeStamp="Wed May 11 15:09:57 2022"><group name="IOB_OUTBUF">
 <item name="DRIVEATTRBOX" rev="6">
 <attrib name="12" value="1"/></item>

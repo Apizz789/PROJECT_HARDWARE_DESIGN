@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : KUNYORK_drc.vf
+// /___/   /\     Timestamp : 05/25/2022 00:24:23
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\FPGA\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan6 -verilog KUNYORK_drc.vf -w "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.sch"
+//Design Name: KUNYORK
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module KUNYORK(kkyork, 
+               LED1, 
+               LED2, 
+               LED3, 
+               LED4);
+
+    input kkyork;
+   output LED1;
+   output LED2;
+   output LED3;
+   output LED4;
+   
+   
+   Kunyork  XLXI_1 (.button(kkyork), 
+                   .led1(LED1), 
+                   .led2(LED2), 
+                   .led3(LED3), 
+                   .led4(LED4));
+endmodule

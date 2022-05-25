@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed May 25 06:04:05 2022
+# Process ID: 7656
+# Log file: C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -541 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/FPGA/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/pa.fromNetlist.tcl}
+# create_project -name SWITCH_BUT -dir "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/planAhead_run_2" -part xc6slx9tqg144-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/Kunyork.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Kunyork.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/Kunyork.ucf' to fileset 'constrs_1'
+# add_files [list {Kunyork.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9tqg144-3
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Kunyork.ngc ...
+WARNING:NetListWriters:298 - No output is written to Kunyork.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Kunyork.edif ...
+ngc2edif: Total memory usage is 4310532 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/SWITCH_BUT.data/cache/Kunyork_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/SWITCH_BUT.data/cache/Kunyork_ngc_zx.edif]
+Loading clock regions from D:/FPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from D:/FPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from D:/FPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from D:/FPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from D:/FPGA/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from D:/FPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : D:/FPGA/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/Kunyork.ucf]
+Finished Parsing UCF File [C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/Kunyork.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: c7048a57
+link_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 607.082 ; gain = 153.859

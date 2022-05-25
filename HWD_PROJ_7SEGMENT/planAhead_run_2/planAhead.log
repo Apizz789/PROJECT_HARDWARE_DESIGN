@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed May 25 00:48:24 2022
+# Process ID: 9524
+# Log file: C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -541 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/FPGA/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/pa.fromHdl.tcl}
+# create_project -name HWD_PROJ_7SEGMENT -dir "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/planAhead_run_2" -part xc6slx9tqg144-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Testmap.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {KUNYORK.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top KUNYORK $srcset
+# add_files [list {Testmap.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9tqg144-3
+Using Verific elaboration
+Parsing VHDL file "D:/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.vf" into library work
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'Kunyork' instantiated as 'XLXI_1' [C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/KUNYORK.vf:36]
+Resolution: File names need to match cell names: an EDIF definition will be found in Kunyork.edf; an HDL definition may be placed in any Verilog/VHDL file.
+Loading clock regions from D:/FPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from D:/FPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from D:/FPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from D:/FPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from D:/FPGA/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from D:/FPGA/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : D:/FPGA/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B1' [C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.ucf:15]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B2' [C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.ucf:16]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B1' [C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.ucf:18]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B2' [C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.ucf:19]
+Finished Parsing UCF File [C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/HWD_PROJ_7SEGMENT/Testmap.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 28e9d220
+open_rtl_design: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 614.504 ; gain = 178.109
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1

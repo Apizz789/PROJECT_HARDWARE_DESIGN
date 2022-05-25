@@ -1,0 +1,39 @@
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Kunyork.ucf -p xc6slx9-tqg144-3 "ASD.ngc" ASD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ASD_map.ncd ASD.ngd ASD.pcf 
+par -w -intstyle ise -ol high -mt off ASD_map.ncd ASD.ncd ASD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ASD.twx ASD.ncd -o ASD.twr ASD.pcf -ucf Kunyork.ucf 
+bitgen -intstyle ise -f ASD.ut ASD.ncd 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Kunyork.ucf -p xc6slx9-tqg144-3 "ASD.ngc" ASD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ASD_map.ncd ASD.ngd ASD.pcf 
+par -w -intstyle ise -ol high -mt off ASD_map.ncd ASD.ncd ASD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ASD.twx ASD.ncd -o ASD.twr ASD.pcf -ucf Kunyork.ucf 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Kunyork.ucf -p xc6slx9-tqg144-3 "ASD.ngc" ASD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ASD_map.ncd ASD.ngd ASD.pcf 
+par -w -intstyle ise -ol high -mt off ASD_map.ncd ASD.ncd ASD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ASD.twx ASD.ncd -o ASD.twr ASD.pcf -ucf Kunyork.ucf 
+bitgen -intstyle ise -f ASD.ut ASD.ncd 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Kunyork.ucf -p xc6slx9-tqg144-3 "ASD.ngc" ASD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ASD_map.ncd ASD.ngd ASD.pcf 
+par -w -intstyle ise -ol high -mt off ASD_map.ncd ASD.ncd ASD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ASD.twx ASD.ncd -o ASD.twr ASD.pcf -ucf Kunyork.ucf 
+bitgen -intstyle ise -f ASD.ut ASD.ncd 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.syr" 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Kunyork.ucf -p xc6slx9-tqg144-3 "ASD.ngc" ASD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ASD_map.ncd ASD.ngd ASD.pcf 
+par -w -intstyle ise -ol high -mt off ASD_map.ncd ASD.ncd ASD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ASD.twx ASD.ncd -o ASD.twr ASD.pcf -ucf Kunyork.ucf 
+bitgen -intstyle ise -f ASD.ut ASD.ncd 
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/ASD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Kunyork.ucf -p xc6slx9-tqg144-3 "ASD.ngc" ASD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ASD_map.ncd ASD.ngd ASD.pcf 
+par -w -intstyle ise -ol high -mt off ASD_map.ncd ASD.ncd ASD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ASD.twx ASD.ncd -o ASD.twr ASD.pcf -ucf Kunyork.ucf 
+bitgen -intstyle ise -f ASD.ut ASD.ncd 

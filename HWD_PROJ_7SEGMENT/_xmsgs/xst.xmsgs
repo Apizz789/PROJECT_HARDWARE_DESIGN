@@ -5,5 +5,44 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 36: Module &lt;<arg fmt="%s" index="1">KUNYORK</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">button</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 37: Module &lt;<arg fmt="%s" index="1">KUNYORK</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">led1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 38: Module &lt;<arg fmt="%s" index="1">KUNYORK</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">led2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 39: Module &lt;<arg fmt="%s" index="1">KUNYORK</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">led3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 40: Module &lt;<arg fmt="%s" index="1">KUNYORK</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">led4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 36: Port <arg fmt="%s" index="1">SW_P24</arg> is not connected to this instance
+</msg>
+
+<msg type="error" file="HDLCompiler" num="508" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 23: Illegal recursive instantiation of module &lt;<arg fmt="%s" index="1">KUNYORK</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 36: Cannot find port <arg fmt="%s" index="1">button</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 37: Cannot find port <arg fmt="%s" index="1">led1</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 38: Cannot find port <arg fmt="%s" index="1">led2</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 39: Cannot find port <arg fmt="%s" index="1">led3</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 40: Cannot find port <arg fmt="%s" index="1">led4</arg> on this module
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Apirak Oulis\Documents\GitHub\Project_HARDWARE_DESIGN\HWD_PROJ_7SEGMENT\KUNYORK.vf" Line 23: Empty module &lt;<arg fmt="%s" index="1">KUNYORK</arg>&gt; remains a black box.
+</msg>
+
 </messages>
 

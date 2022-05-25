@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/Kunyork.xst" -ofn "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/Kunyork.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "Kunyork.ngc" Kunyork.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kunyork_map.ncd Kunyork.ngd Kunyork.pcf 
+par -w -intstyle ise -ol high -mt off Kunyork_map.ncd Kunyork.ncd Kunyork.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kunyork.twx Kunyork.ncd -o Kunyork.twr Kunyork.pcf 
+bitgen -intstyle ise -f Kunyork.ut Kunyork.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Kunyork.ucf -p xc6slx9-tqg144-3 "Kunyork.ngc" Kunyork.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Kunyork_map.ncd Kunyork.ngd Kunyork.pcf 
+par -w -intstyle ise -ol high -mt off Kunyork_map.ncd Kunyork.ncd Kunyork.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Kunyork.twx Kunyork.ncd -o Kunyork.twr Kunyork.pcf -ucf Kunyork.ucf 
+bitgen -intstyle ise -f Kunyork.ut Kunyork.ncd 
+bitgen -intstyle ise -f Kunyork.ut Kunyork.ncd 
+vhdtdtfi -lib work SW_BUTTON.vhd -prj SWITCH_BUT -o Kunyork.spl -module Kunyork -template D:/FPGA/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Kunyork.spl {C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/Kunyork.sym} 
+vhdtdtfi -prj SWITCH_BUT -o "C:/Users/Apirak Oulis/Documents/GitHub/Project_HARDWARE_DESIGN/SWITCH_BUT/Kunyork.tfi" -module Kunyork -template D:/FPGA/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work SW_BUTTON.vhd 
